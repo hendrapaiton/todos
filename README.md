@@ -1,39 +1,53 @@
-# todos
+# Todos Project (Practical Tests)
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a Vue3 project that uses the Composition API as a practical final project for the semester to develop a small to-do application with numerous components that may share data with one another via props/state.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Installation](#installation)
+- [Usage](#usage)
+- [Build](#build)
+- [Run](#run)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+To install the dependencies, run the following command:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+## Usage
+
+To start the development server, run:
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+This will start the Vite development server and you can view the application by navigating to `http://localhost:3000` in your web browser.
+
+## Build
+
+To build the project for production, run:
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+This will create a `dist` directory with the production build of the application.
+
+## Run
+
+To preview the production build locally, run:
 
 ```sh
-npm run lint
+npm run preview
 ```
+
+This will start a local server to serve the production build.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
